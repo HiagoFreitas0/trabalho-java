@@ -28,3 +28,6 @@ Somente livros disponíveis podem ser emprestados.
 
 - Java Development Kit (JDK) 8 ou superior
 - IDE de sua preferência
+
+## Contribuindo
+- Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou correções.
