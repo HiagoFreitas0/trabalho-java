@@ -21,7 +21,7 @@ O sistema está dividido nas seguintes classes principais:
 ## 🧰 Requisitos
 
 - Java Development Kit (JDK) 8 ou superior
-- IDE de sua preferência (Eclipse, IntelliJ IDEA, NetBeans, VSCode, etc.)
+- IDE de sua preferência
 
 ## ▶️ Como Executar
 
