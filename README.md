@@ -18,6 +18,12 @@ O sistema está dividido nas seguintes classes principais:
 - **Emprestimo**: Registra as informações do empréstimo de um livro, incluindo o nome do usuário e o livro emprestado.
 - **Biblioteca**: Gerencia a lista de livros, autores e empréstimos da biblioteca.
 
+## 📌 Regras de Negócio
+Somente livros disponíveis podem ser emprestados.
+
+- Após o empréstimo, o livro não poderá ser emprestado novamente durante a execução atual do programa.
+- O nome do usuário é obrigatório para realizar o empréstimo.
+
 ## 🧰 Requisitos
 
 - Java Development Kit (JDK) 8 ou superior
