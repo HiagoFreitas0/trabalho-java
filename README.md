@@ -1,15 +1,15 @@
-# 📚 Sistema de Gestão de Biblioteca
+# Sistema de Gestão de Biblioteca
 
 Bem-vindo ao projeto **Sistema de Gestão de Biblioteca**! Este projeto foi desenvolvido como parte de um desafio introdutório da trilha de Java. O objetivo é aplicar conceitos fundamentais de Java, como orientação a objetos, listas, laços de repetição e manipulação de datas.
 
-## ✅ Funcionalidades
+##  Funcionalidades
 
-### 📖 Gerenciamento de Livros
+###  Gerenciamento de Livros
 
 - **Listar livros disponíveis**: Mostra apenas os livros que estão disponíveis para empréstimo.
 - **Realizar empréstimo de livro**: Permite ao usuário selecionar um livro disponível e registrar o empréstimo com seu nome.
 
-## 🧱 Estrutura do Projeto
+##  Estrutura do Projeto
 
 O sistema está dividido nas seguintes classes principais:
 
@@ -18,19 +18,13 @@ O sistema está dividido nas seguintes classes principais:
 - **Emprestimo**: Registra as informações do empréstimo de um livro, incluindo o nome do usuário e o livro emprestado.
 - **Biblioteca**: Gerencia a lista de livros, autores e empréstimos da biblioteca.
 
-## 📌 Regras de Negócio
+##  Regras de Negócio
 Somente livros disponíveis podem ser emprestados.
 
 - Após o empréstimo, o livro não poderá ser emprestado novamente durante a execução atual do programa.
 - O nome do usuário é obrigatório para realizar o empréstimo.
 
-## 🧰 Requisitos
+##  Requisitos
 
 - Java Development Kit (JDK) 8 ou superior
 - IDE de sua preferência
-
-## ▶️ Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
