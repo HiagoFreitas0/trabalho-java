@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-public class Polinomio {
 
+public class Polinomio implements Calculavel {
     private ArrayList<Termo> termos;
 
     public Polinomio(Termo termoInicial) {
@@ -8,6 +8,7 @@ public class Polinomio {
         termos.add(termoInicial);
     }
 
+    @Override
     public void insere(Termo novoTermo) {
         boolean encontrado = false;
         for (Termo t : termos) {
@@ -22,8 +23,9 @@ public class Polinomio {
         }
     }
 
-    public double calcula(double x) {
-        double resultado = 0;
+    @Override
+    public float calcula(double x) {
+        float resultado = 0;
         for (Termo t : termos) {
             resultado += t.calcula(x);
         }
@@ -41,9 +43,8 @@ public class Polinomio {
         StringBuilder sb = new StringBuilder();
         termos.sort((a, b) -> b.getExpoente() - a.getExpoente());
         for (int i = 0; i < termos.size(); i++) {
-            Termo t = termos.get(i);
-            sb.append(t.toString());
-            if (i != termos.size() - 1) {
+            sb.append(termos.get(i));
+            if (i < termos.size() - 1) {
                 sb.append(" + ");
             }
         }
